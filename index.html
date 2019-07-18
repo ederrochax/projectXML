@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Download XML</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <style>
+    html,
+    body {
+      height: 100%;
+    }
+    body {
+      display: flex;
+    }
+    </style>
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Download XML</h3>
+    </div>
+  </header>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  <main role="main" class="inner cover">
+    <div id="loading" style="display: none;">
+      <div class="spinner-grow" role="status"></div>
+        <h1 class="cover-heading">Processando XML...</h1>
+    </div>
+    <div id="adv">
+      <h1 class="cover-heading alter-h1">Processe seu XML</h1>
+      <p class="lead alter-p">Pressione o botão abaixo para começar</p>
+      <button id="download" class="btn btn-lg btn-primary alter-btn">Baixar</button>
+    </div>
+  </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>Challenge Two - Backend</a>.</p>
+    </div>
+  </footer>
+</div>
+</body>
+<script src="functions/javascript.js"></script>
+</html>
